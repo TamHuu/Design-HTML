@@ -1,0 +1,330 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#main {}
+
+#header {
+    height: 46px;
+    background-color: black;
+    z-index: 1;
+    text-decoration: none;
+}
+
+#nav {
+    display: inline-block;
+    position: fixed;
+    z-index: 1;
+}
+
+
+#nav li {
+    display: inline-block;
+
+}
+
+#nav li a {
+    color: aliceblue;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+}
+
+#nav li:hover a {
+    color: red;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    background-color: #fff;
+    display: inline-block;
+}
+
+#More {
+    position: relative;
+
+}
+
+.subnav {
+    line-height: 20px;
+        /* top: 100%;
+    left: 0;
+    min-width: 160px;
+        */
+    display: none;
+    position: absolute;
+    color: black;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    float: left;
+    width: 100%;
+}
+
+#More a:hover~.subnav {
+    display: block;
+    text-align: center;
+}
+
+.subnav:hover {
+    display: block;
+    width: 100%;
+
+}
+
+.subnav li:hover {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+        text-align: center;
+}
+
+.subnav a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 38px;
+}
+.subnav li a {
+    width: 100%;
+    line-height: 20px;
+}
+
+
+.search-btn {
+    float: right;
+    line-height: 46px;
+    padding: 0 20px;
+    background-color: black;
+    cursor: pointer;
+
+}
+
+.search-btn:hover {
+    float: right;
+    line-height: 46px;
+    padding: 0 20px;
+    background-color: red;
+
+}
+
+.search-icon {
+    color: white;
+    font-size: 20px;
+}
+
+.ti-search {
+    color: #fff;
+
+}
+
+#slider {
+    padding-top: 50%;
+    position: sticky;
+    background: url('/w3_band/assets/img/slider1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Chicago {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 80px;
+
+
+
+}
+
+#content {
+    z-index: 3;
+}
+
+.content-section {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+
+}
+
+.section-heading {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    padding: 20px;
+}
+
+.section-sub-heading {
+    font-size: 15px;
+    margin-bottom: 27px;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+.section-heading,
+.section-sub-heading {
+    text-align: center;
+}
+
+.about-text {
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 1.4;
+
+}
+
+.members-list {
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.members-item {
+
+    float: left;
+    text-align: center;
+}
+
+.member-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+.member-img {
+    margin-top: 15px;
+
+}
+
+
+
+/* tour-date */
+.Tour-Date {
+    background-color: #000;
+    color: #fff;
+}
+
+.list-li {
+    background-color: #fff;
+    color: aqua;
+    padding: 20px;
+    margin: 0 51px;
+    border: 1px solid #ccc;
+    list-style-type: none;
+}
+
+.sold-out {}
+
+.number {}
+
+/* location */
+.list-location {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+    padding-bottom: 117px;
+
+
+}
+
+.item-location {
+    width: 100%;
+}
+
+.item-location:hover {
+    width: 100%;
+    opacity: 0.60;
+}
+
+.desc-location {
+    background-color: #fff;
+    color: black;
+}
+
+.desc-location p {
+    margin: 5px 16px;
+    padding: 10px 16px;
+
+
+
+}
+
+.desc-location button {
+    margin: 5px 32px;
+    padding: 10px 16px;
+    background-color: #000;
+    color: #fff;
+
+
+
+}
+
+.desc-location button:hover {
+    margin: 5px 32px;
+    padding: 10px 16px;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.60;
+    cursor: pointer;
+
+
+}
+
+/* CONTACT */
+.container-big {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding: 0 16px;
+    margin: 0 359px;
+    font-size: 20px;
+
+}
+
+
+#footer {
+    padding-bottom: 64px;
+    padding-top: 64px;
+    text-align: center;
+}
+
+.container-icons {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.sub-info {
+    display: flex;
+}
+
+.email {
+    margin-left: 50px;
+}
+
+.input-message {
+    width: 500px;
+}
+.info {
+    font-size: 20px;
+    line-height: 33px;
+    margin: 20px;
+
+}
+
+.containsmall1 {
+    padding: 24px 10px;
+}
+
+/* 
+    PC: >=1024PX
+    Tablet: >=740px && <1024px
+    Mobile: <740px
+*/
