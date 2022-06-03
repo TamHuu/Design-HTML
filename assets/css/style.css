@@ -124,7 +124,7 @@ html {
 #slider {
     padding-top: 50%;
     position: sticky;
-    background: url('/w3_band/assets/img/slider1.jpg');
+    background: url('/assets/img/slider1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -211,16 +211,19 @@ html {
 
 .list-li {
     background-color: #fff;
-    color: aqua;
-    padding: 20px;
+color: black;
+    line-height: 40px;
+    padding: 37px 10px;
     margin: 0 51px;
     border: 1px solid #ccc;
     list-style-type: none;
 }
 
-.sold-out {}
 
-.number {}
+.number {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* location */
 .list-location {
@@ -279,12 +282,11 @@ html {
 /* CONTACT */
 .container-big {
     display: flex;
-    justify-content: space-around;
-    max-width: 800px;
+    justify-content: center;
     padding-top: 64px;
     padding-bottom: 64px;
     padding: 0 16px;
-    margin: 0 359px;
+
     font-size: 20px;
 
 }
@@ -319,9 +321,10 @@ html {
 
 }
 
-.containsmall1 {
-    padding: 24px 10px;
+.container-small1 {
+    padding: 20px;
 }
+
 
 /* 
     PC: >=1024PX
